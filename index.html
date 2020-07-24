@@ -2,59 +2,131 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./assets/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Alex Vasilkov</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
-    <header>
-        <h1>
-            <a href="/">PORTFOLIO</a>
+  <!-- main logo / nav -->
+  <header>
+    <h1>Alex Vasilkov</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact Me</a>
+      <!-- Link this to your resume! -->
+      <a href="#">Resume</a>
+    </nav>
+  </header>
 
-        </h1>
-        <nav>
-            <ul>
+  <!-- hero banner -->
+  <section class="hero-banner">
+    <div>
+      <h2>From Russia with Love</h2>
+    </div>
+  </section>
 
-                <li>
-                    <a href="#about-Me">About me</a>
-                </li>
-                <li><a href="#work">Work</a>
-                </li>
-
-                <li><a href="#contact-Me">Contact me</a>
-                </li>
-
-                <li><a href="#resume">Resume</a>
-                </li>
-
-            </ul>
-        </nav>
-    </header>
-    <section class="top-banner">
-        <div>
-            <h2>Alex Vasilkov</h2>
-        </div>
-    </section>
-    <section>
-        <h2>About Me</h2>
-        <div>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptates dolor praesentium commodi
-                porro id et suscipit delectus soluta nemo mollitia, earum perspiciatis rerum. Veniam hic nisi ad eos
-                sunt?
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde fugit officia repellat quisquam, in illo.
-                Sed odio quisquam animi ab rerum inventore quibusdam labore, iusto praesentium harum, tempore aspernatur
-                nostrum?
-            </p>
-        </div>
-    </section>
-    <section>
-        <a href=""></a>
-        <h2>Work</h2>
-        <div></div>
+  <main class="page-wrapper">
+    <!-- about me -->
+    <section class="page-section" id="about">
+      <h2>About Me</h2>
+      <div>
+        <p>
+          Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa quinoa typewriter
+          plaid
+          direct trade small batch wayfarers bicycle rights cliche craft beer gastropub single-origin coffee Godard
+          Carles you
+          probably haven't heard of them irony pickled kitsch synth sriracha gentrify literally heirloom blog Truffaut
+          paleo
+          scenester
+        </p>
+        <p>
+          Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone Kickstarter Carles crucifix kitsch narwhal
+          dreamcatcher pickled trust fund selvage art party letterpress Tumblr post-ironic kogi Thundercats Tonx
+          Brooklyn Pitchfork Odd Future authentic normcore freegan leggings Schlitz chambray organic tousled retro fap
+          squid street art church-key fashion axe Wes Anderson bespoke whatever gentrify banh mi you probably haven't
+          heard of them American Apparel next level pug ugh.
+        </p>
+      </div>
     </section>
 
+    <!-- portfolio grid -->
+    <section class="page-section" id="work">
+      <h2>Work</h2>
+      <div class="grid-container">
+
+        <a href="https://kray306090.github.io/yorkie-terrier/" class="grid-item dog-pedia">
+          <div>
+            <h3>Doggypedia</h3>
+            <span>HTML/CSS/JAVASCRIPT/BULMA.IO
+            </span>
+          </div>
+        </a>
+        
+        <a href="https://alex2055.github.io/first-week-challenge/" class="grid-item led-wall">
+          <div>
+            <h3>Horiseon</h3>
+            <span>HTML/CSS</span>
+          </div>
+        </a>
+        <a href="https://alex2055.github.io/4th-week-challenge/" class="grid-item react-calc">
+          <div>
+            <h3>Quiz</h3>
+            <span>HTML/JavaScript/CSS</span>
+          </div>
+        </a>
+
+        <a href="https://alex2055.github.io/third-week-challenge/" class="grid-item pastel-puzzles">
+          <div>
+            <h3>Password Generator</h3>
+            <span>HTML/CSS/Javascript</span>
+          </div>
+        </a>
+
+    
+        <a href="https://alex2055.github.io/run-buddy/" class="grid-item run-buddy">
+          <div>
+            <h3>Run Buddy</h3>
+            <span>HTML/CSS</span>
+          </div>
+        </a>
+        
+        <a href="https://alex2055.github.io/6th-week-challenge/index.html" class="grid-item weather-app">
+          <div>
+            <h3>Weather-app</h3>
+            <span>HTML/JavaScript/CSS/API</span>
+          </div>
+        </a>
+
+        <!-- <a href="" class="grid-item react-calc">
+          <div>
+            <h3>Calculator</h3>
+            <span>React/JavaScript/CSS</span>
+          </div>
+        </a> -->
+
+
+
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="page-section contact" id="contact">
+      <h2>Contact Me</h2>
+      <div>
+        <address>
+          <a href="tel:+16159444166">615.944.4166</a>
+          <a href="mailto:alexfromnashville@gmail.com">alexfromnashville@gmail.com</a>
+          <a href="https://github.com/Alex2055">GitHub</a>
+          <a href="#">Facebook</a>
+          <a href="#">Slack</a>
+        </address>
+      </div>
+    </section>
+  </main>
 </body>
+
+</html>
