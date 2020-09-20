@@ -181,6 +181,10 @@ main {
     grid-column: span 8;
     grid-row: span 2;
 }
+.grid-item:last-child{
+  grid-column: span 4;
+  grid-row: span 2;
+}
 
 .grid-item:hover {
   background-color: rgba(0, 0, 0, 0.3);
@@ -251,6 +255,10 @@ main {
 
 .weather-app{
   background-image: url("../images/weatherapp.png");
+  background-size: cover;
+}
+.second-project{
+  background-image: url("../images/buysmart.png");
   background-size: cover;
 }
 
